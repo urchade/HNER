@@ -55,3 +55,13 @@ prediction = model.extract_entities([tokens])
 
 print(prediction)
 ```
+
+## Reference
+
+```bibtex
+@inproceedings{Zaratiana2022HierarchicalTM,
+  title={Hierarchical Transformer Model for Scientific Named Entity Recognition},
+  author={Urchade Zaratiana and Pierre Holat and Nadi Tomeh and Thierry Charnois},
+  year={2022}
+}
+```
