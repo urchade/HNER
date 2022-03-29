@@ -4,7 +4,7 @@
 clone the repository
 
 ```bash
-git https://github.com/urchade/HNER.git
+git clone https://github.com/urchade/HNER.git
 cd HNER
 pip install -r requirements.txt
 pip install .
