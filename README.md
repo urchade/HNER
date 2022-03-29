@@ -4,8 +4,8 @@
 clone the repository
 
 ```bash
-git clone https://sofia.fi-group.com/gitlab/sofia/seq_lab.git
-cd seq_lab
+git https://github.com/urchade/HNER.git
+cd HNER
 pip install -r requirements.txt
 pip install .
 ```
@@ -14,7 +14,7 @@ pip install .
 ## Training a model
 
 ```python
-from seq_lab.train_model import create_config, train_model
+from seqlab.train_model import create_config, train_model
 
 name = "keyphrase_extractor"
 dirpath= "."
@@ -41,7 +41,7 @@ train_model(config)
 ## Loading a model
 
 ```python
-from seq_lab.inference import load_model
+from seqlab.inference import load_model
 
 checkpoint = "keyphrase_extractor.ckpt"
 
