@@ -1,4 +1,4 @@
-# seq_lab
+### Hierarchical Transformer Model for Scientific Named Entity Recognition
 
 ## Installation
 clone the repository
