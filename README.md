@@ -19,7 +19,7 @@ from seqlab.train_model import create_config, train_model
 name = "keyphrase_extractor"
 dirpath= "."
 
-data_path = "data/dataset.pk"
+data_path = "data/dataset.pk" (see example_dataset/tdm_dataset.pk)
 # the dataset file (pickle) should be a dictionnary containing 'train' and 'dev' splits and a 'tag_to_id' dict
 # for instance:
 
